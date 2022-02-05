@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Alvarez Hnos</title>
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+
+
+</head>
+<!--Menu-->
+
+<body>
+    <header class="header">
+
+        <section class="logo-titulo">
+            <div>
+                <a href="../index.html">
+                    <img class="logo"  src="../images/logo.png" alt="Logo Alvarez Hnos">
+                </a>
+            </div>
+            <h1 class="alvarez-hnos"> Alvarez Hnos - Servicio Oficial Peugeot y BYD </h1>
+        </section>
+        <nav>
+            <ul class="menu">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./pages/solicitar-presupuesto.html">Solicitar
+                        presupuesto</a></li>
+                <li><a href="./pages/nosotros.html">Nosotros</a></li>
+                <li><a href="./pages/trabaja-con-nosotros.html">Trabaja
+                        con nosotros</a></li>
+                <li><a href="./pages/foro.html">Foro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <form action="ejemplo.php" method="get">
+            <p>Nombre completo: <input type="text" name="nombre" size="40"></p>
+            <p>Mail: <input type="email" name="" id=""></p>
+            <p>Marca:
+                <input type="radio" name="hm" value="Peugeot"> Peugeot
+                <input type="radio" name="hm" value="BYD"> BYD
+            </p>
+            <p>Modelo: <input type="text"></p>
+
+            <p>Descripción del incidente:</p>
+            <textarea name="descripcion-del-incidente" rows="10" cols="40">Escribe aquí tus comentarios</textarea>
+
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </p>
+        </form>
+
+        <p>
+            <input type="button" value="Llamar">
+            <input type="button" value="Whatsapp">
+            <input type="button" value="Cómo ir">
+        </p>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13087.348962434622!2d-56.1850637!3d-34.9105338!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc5e8d481f0a703cc!2sTaller%20Alvarez%20Hnos%20-%20Servicio%20Oficial%20Peugeot%20y%20BYD!5e0!3m2!1ses-419!2suy!4v1640150310000!5m2!1ses-419!2suy"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </section>
+
+    <footer>
+        <a href="https://instagram.com">
+            <img class="redes" src="../images/icono-instagram.png"
+                alt="instagram Alvarez Hnos">
+
+        </a>
+        <a href="https://facebook.com">
+            <img class="redes" src="../images/icono-facebook.png"
+                alt="Facebook Alvarez Hnos">
+        </a>
+        <a href="https://twitter.com">
+            <img class="redes" src="../images/icono-twitter.png"
+                alt="twitter Alvarez Hnos">
+        </a>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
