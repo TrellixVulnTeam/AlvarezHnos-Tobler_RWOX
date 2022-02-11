@@ -7,7 +7,7 @@ body {
         }
 
         @keyframes slidein {
-            
+
             from {
                 margin-left: 100%;
                 width: 100%;
@@ -51,37 +51,35 @@ body {
 
     }
 
-iframe {
-    .video-novedades {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 4rem;
-        margin-bottom: 2rem;
-        display: block
-    }
-
-    .video-novedades {
-        animation: video 3s;
-    }
-
-    @keyframes video {
-        from {
-            width: 0;
+    iframe {
+        .video-novedades {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 4rem;
+            margin-bottom: 2rem;
+            display: block
         }
 
-        to {
+        .video-novedades {
+            animation: video 3s;
+        }
+
+        @keyframes video {
+            from {
+                width: 0;
+            }
+
+            to {
+                width: 51rem;
+                height: 25rem;
+
+            }
+        }
+
+        iframe.video-novedades {
             width: 51rem;
             height: 25rem;
-
+            border-radius: 1rem;
         }
     }
-
-    iframe.video-novedades {
-        width: 51rem;
-        height: 25rem;
-        border-radius: 1rem;
-    }
 }
-}
-
-    
