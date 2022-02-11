@@ -1,0 +1,87 @@
+body {
+    h2 {
+        .titulo-novedades {
+            text-align: center;
+            margin: 2rem 1rem 5rem 1rem;
+            font-size: 200%;
+        }
+
+        @keyframes slidein {
+            
+            from {
+                margin-left: 100%;
+                width: 100%;
+            }
+
+            to {
+                margin-left: 0%;
+                width: 100%;
+            }
+        }
+
+
+    }
+
+    div {
+        .container-novedades {
+            margin-left: 1rem;
+            margin-right: 1rem;
+
+            .nueva-peugeot {
+                border-radius: 1rem;
+            }
+
+        }
+
+        h3 {
+            .modelo {
+                color: black;
+                font-size: 200%;
+            }
+
+            div {
+                .subcontainer-novedades {
+                    font-size: 130%;
+                }
+
+
+            }
+        }
+
+
+    }
+
+iframe {
+    .video-novedades {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        display: block
+    }
+
+    .video-novedades {
+        animation: video 3s;
+    }
+
+    @keyframes video {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 51rem;
+            height: 25rem;
+
+        }
+    }
+
+    iframe.video-novedades {
+        width: 51rem;
+        height: 25rem;
+        border-radius: 1rem;
+    }
+}
+}
+
+    

@@ -1,153 +1,83 @@
-* {
-    /* Margen */
-    margin: 0;
-    /* Relleno */
-    padding: 0;
-}
-
-/* Nav */
-#logo {
-    display: inline-flex;
-    justify-content: space-around;
-    margin-left: 2rem;
-    flex-grow: calc(2);
-
-}
-
-#alvarez-hnos {
-    display: flex;
-    margin-top: 7.5rem;
-
-}
-
-#logos {
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-}
-
-/* Fin Nav*/
-
 /* Index*/
-
 .experiencia-45 {
-    font-size: 180%;
-    font-style: italic;
-}
-
-#logos {
-    margin-bottom: 3rem;
-    margin-top: 3rem;
-    justify-content: space-around;
+  font-size: 180%;
+  font-style: italic;
 }
 
 .nueva-peugeot {
-    border-radius: 2rem;
+  border-radius: 2rem;
 }
 
-#experiencia {
-    font-size: 100%;
-    margin-left: 1rem;
-    margin-right: 1rem;
+section #logos {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  justify-content: space-around;
 }
-.subcontainer-experiencia {
-font-size: 130%;
+section div #experiencia {
+  font-size: 100%;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
-/* Fin Index*/
-
-/* Foro */
-.titulo-novedades {
-    text-align: center;
-    margin: 2rem 1rem 5rem 1rem;
-    font-size: 200%;
+section div #experiencia .experiencia-45 {
+  font-size: 180%;
+  font-style: italic;
 }
-
-.titulo-novedades {
-    animation-duration: 3s;
-    animation-name: slidein;
+section div #experiencia .subcontainer-experiencia {
+  font-size: 130%;
 }
 
+body .titulo-novedades {
+  text-align: center;
+  margin: 2rem 1rem 5rem 1rem;
+  font-size: 200%;
+}
 @keyframes slidein {
-    from {
-        margin-left: 100%;
-        width: 100%;
-    }
-
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
-.container-novedades {
-    margin-left: 1rem;
-    margin-right: 1rem;
+body .container-novedades {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
-
-.subcontainer-novedades {
-    font-size: 130%;
+body .container-novedades .nueva-peugeot {
+  border-radius: 1rem;
 }
-
-.Foro {
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    grid-template-rows: 15rem;
-    background-image: linear-gradient(rgba(31, 31, 163, 0.761), rgba(247, 247, 247, 0.761));
+body .container-novedades .modelo {
+  color: black;
+  font-size: 200%;
 }
-
-.nueva-peugeot {
-    border-radius: 1rem;
+body .container-novedades .subcontainer-novedades {
+  font-size: 130%;
 }
-
-.modelo {
-    color: black;
-    font-size: 200%;
+body .container-novedades .video-novedades {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  display: block;
 }
-
-
-.video-novedades {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
-    display: block
+body .container-novedades .video-novedades {
+  animation: video 3s;
 }
-
-.video-novedades {
-    animation: video 3s;
-}
-
 @keyframes video {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 51rem;
-        height: 25rem;
-
-    }
-}
-
-
-iframe.video-novedades {
+  from {
+    width: 0;
+  }
+  to {
     width: 51rem;
     height: 25rem;
-    border-radius: 1rem;
+  }
+}
+body .container-novedades iframe.video-novedades {
+  width: 51rem;
+  height: 25rem;
+  border-radius: 1rem;
 }
 
-/* Fin foro*/
-
-/*Footer*/
-footer {
-    margin-left: 80%;
-
-}
-
-.redes {
-    width: 40px;
-    height: 40px;
-    margin: 10px 20px 10px 10px;
-    display: inline;
-
-}
-
-/* Fin Footer*/
+/*# sourceMappingURL=style.css.map */

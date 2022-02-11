@@ -1,0 +1,29 @@
+section {
+    #logos {
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+        justify-content: space-around;
+    }
+
+    div {
+        .nueva-peugeot {
+            border-radius: 2rem;
+        }
+
+        #experiencia {
+            font-size: 100%;
+            margin-left: 1rem;
+            margin-right: 1rem;
+
+            .experiencia-45 {
+                font-size: 180%;
+                font-style: italic;
+            }
+
+
+            .subcontainer-experiencia {
+                font-size: 130%;
+            }
+        }
+    }
+}
