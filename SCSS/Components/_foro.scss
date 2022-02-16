@@ -1,3 +1,5 @@
+/* FORO */
+
 body {
     h2 {
         .titulo-novedades {
@@ -6,8 +8,12 @@ body {
             font-size: 200%;
         }
 
-        @keyframes slidein {
+        .titulo-novedades {
+            animation-duration: 3s;
+            animation-name: slidein;
+        }
 
+        @keyframes slidein {
             from {
                 margin-left: 100%;
                 width: 100%;
@@ -18,7 +24,6 @@ body {
                 width: 100%;
             }
         }
-
 
     }
 

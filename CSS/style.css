@@ -88,4 +88,29 @@ body iframe iframe.video-novedades {
   border-radius: 1rem;
 }
 
+header #logo {
+  display: inline-flex;
+  justify-content: space-around;
+  margin-left: 2rem;
+  flex-grow: 2;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+header #alvarez-hnos {
+  display: flex;
+  margin-top: 7.5rem;
+}
+
+footer {
+  margin-left: 80%;
+}
+
+footer .redes {
+  width: 40px;
+  height: 40px;
+  margin: 10px 20px 10px 10px;
+  display: inline;
+}
+
 /*# sourceMappingURL=style.css.map */
