@@ -1,15 +1,5 @@
 /* Mapas*/
 
-$texto: (
-    text-color-texto: blue,
-    font-texto: 22px,
-);
-
-$titulo: (
-    text-color-titulo: black, 
-    font-texto: 44px,
-);
-
-.titulo-novedades {
-    font: map-get ($texto, font-texto);
-}
+$standard: (
+    text-color
+)
