@@ -1,5 +1,11 @@
 /* Mapas*/
 
-$standard: (
-    text-color
-)
+$Standard: (
+    text-color-standard: red,
+    bg-color-standard: blue,
+    font-standard: 150%,
+);
+
+footer {
+    background-color: map-get($Standard, bg-color-standard);
+}
