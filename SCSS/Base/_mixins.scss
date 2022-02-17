@@ -1,0 +1,17 @@
+/* Mixin */
+
+@mixin texto ($valor) {
+    font-size: $valor;
+    font-weight: $valor;
+    background-color: $valor;
+    border-radius: $valor;
+    flex-direction: $valor;
+}
+
+.texto-index {
+    @include texto();
+}
+
+.texto-foro {
+    @include texto();
+}

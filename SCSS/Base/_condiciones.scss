@@ -1,0 +1,11 @@
+/*Si pasa A pasa B*/
+
+@mixin condicion ($colores) {
+    background-color: $colores;
+    
+    @if $colores == orange {
+        border: 1px solid black;
+    } @else {
+        border: 2px dotted yellow;
+    }
+}
